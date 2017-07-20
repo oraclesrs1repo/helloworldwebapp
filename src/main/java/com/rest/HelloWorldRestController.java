@@ -11,14 +11,14 @@ public class HelloWorldRestController {
 	@GET
 	@Path("/hello")
 	public Response sayHello(){
-		return Response.status(200).entity("Hello Welcome to Tavant").build();
+		return Response.status(200).entity("Hello Welcome to Tavant Mr.Anant").build();
 	}
 	
 	
 	@GET
 	@Path("/bye")
 	public Response sayBye(){
-		return Response.status(200).entity("Good Bye").build();
+		return Response.status(200).entity("Good Bye Anant").build();
 	}
 
 }
